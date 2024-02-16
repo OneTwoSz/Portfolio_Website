@@ -206,20 +206,20 @@ export const projects = [
         theme: 'btn-back-green',
         name: 'Blockchain based traffic fine management system',
         description: 'Developed a blockchain-powered fine management system potentially for law enforcement. This innovative solution ensures transparency, reduces corruption, and streamlines fine processing, enhancing public trust and organizational efficiency.',
-        link: 'h',
+        link: 'https://charming-empanada-0210ce.netlify.app/',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
         name: 'Hotel Management System',
         description: 'Crafted an efficient Hotel Management System, employing a suite of technology tools, to streamline and improve daily hotel operations, ensuring a seamless experience for guests and staff alike.',
-        link: 'h',
+        link: 'https://charming-empanada-0210ce.netlify.app/',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
         name: 'Real-Estate Application',
         description: 'Crafted a web application for Anish Infrastructure, streamlining real estate transactions by connecting property buyers with sellers. The platform simplifies property searches and listings, making it easier for clients to find their dream homes.',
-        link: 'h',
+        link: 'https://charming-empanada-0210ce.netlify.app/',
     }
 ];
