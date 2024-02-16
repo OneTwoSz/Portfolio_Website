@@ -191,7 +191,7 @@ export const projects = [
         theme: 'btn-back-yellow',
         name: 'AI Summarizer Application',
         description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        link: 'https://shimmering-otter-f61c0a.netlify.app/',
     },
     {
         iconUrl: pricewise,
@@ -199,27 +199,27 @@ export const projects = [
         name: 'TeamUp Website',
         description: 'Spearheaded the development of "TeamUp," an innovative web platform designed to assist international students in Melbourne in discovering and connecting with local sports communities.',
                         
-        link: 'https://github.com/adrianhajdin/pricewise',
+        link: 'h',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
         name: 'Blockchain based traffic fine management system',
         description: 'Developed a blockchain-powered fine management system potentially for law enforcement. This innovative solution ensures transparency, reduces corruption, and streamlines fine processing, enhancing public trust and organizational efficiency.',
-        link: 'https://github.com/adrianhajdin/threads',
+        link: 'h',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
         name: 'Hotel Management System',
         description: 'Crafted an efficient Hotel Management System, employing a suite of technology tools, to streamline and improve daily hotel operations, ensuring a seamless experience for guests and staff alike.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        link: 'h',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
         name: 'Real-Estate Application',
         description: 'Crafted a web application for Anish Infrastructure, streamlining real estate transactions by connecting property buyers with sellers. The platform simplifies property searches and listings, making it easier for clients to find their dream homes.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        link: 'h',
     }
 ];
