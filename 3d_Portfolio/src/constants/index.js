@@ -199,7 +199,7 @@ export const projects = [
         name: 'TeamUp Website',
         description: 'Spearheaded the development of "TeamUp," an innovative web platform designed to assist international students in Melbourne in discovering and connecting with local sports communities.',
                         
-        link: 'h',
+        link: 'https://charming-empanada-0210ce.netlify.app/',
     },
     {
         iconUrl: threads,
