@@ -12,7 +12,6 @@ const Projects = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>I'm a digital jack-of-all-trades, dabbling in everything from AI text crunching to blockchain fine busting, with a side of hotel managing and real-estate matchmaking. If there's code to write and a problem to solve, I'm your guy!</p>
-        <p>Github link coming soon!</p>
       </div>
 
       <div className='flex flex-wrap my-20 gap-16'>
@@ -43,7 +42,7 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   className="font-semibold text-blue-600"
                 >
-                  Live Link!
+                  Link!
                 </Link>
                 <img
                   src={arrow}

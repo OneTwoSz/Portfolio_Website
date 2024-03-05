@@ -194,19 +194,26 @@ export const projects = [
         link: 'https://shimmering-otter-f61c0a.netlify.app/',
     },
     {
+        iconUrl: estate,
+        theme: 'btn-back-black',
+        name: 'AImagine',
+        description: 'AImagine is a cutting-edge SaaS platform that transforms image editing through AI. It offers tools like background removal, generative fill, image restoration, and object recoloring, making complex edits simple. Perfect for designers and photographers seeking efficiency and creativity in their workflow.',
+        link: 'https://aimagine-five.vercel.app/',
+    },
+    {
         iconUrl: pricewise,
         theme: 'btn-back-red',
         name: 'TeamUp Website',
         description: 'Spearheaded the development of "TeamUp," an innovative web platform designed to assist international students in Melbourne in discovering and connecting with local sports communities.',
                         
-        link: 'https://charming-empanada-0210ce.netlify.app/',
+        link: 'https://github.com/OneTwoSz/TeamUp.git',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
         name: 'Blockchain based traffic fine management system',
         description: 'Developed a blockchain-powered fine management system potentially for law enforcement. This innovative solution ensures transparency, reduces corruption, and streamlines fine processing, enhancing public trust and organizational efficiency.',
-        link: 'https://charming-empanada-0210ce.netlify.app/',
+        link: 'https://drive.google.com/file/d/13fddEqbMRur2JLSXsm_w08Gq1pr6T_Qm/view?usp=sharing',
     },
     {
         iconUrl: snapgram,
@@ -215,11 +222,5 @@ export const projects = [
         description: 'Crafted an efficient Hotel Management System, employing a suite of technology tools, to streamline and improve daily hotel operations, ensuring a seamless experience for guests and staff alike.',
         link: 'https://charming-empanada-0210ce.netlify.app/',
     },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Crafted a web application for Anish Infrastructure, streamlining real estate transactions by connecting property buyers with sellers. The platform simplifies property searches and listings, making it easier for clients to find their dream homes.',
-        link: 'https://charming-empanada-0210ce.netlify.app/',
-    }
+    
 ];
