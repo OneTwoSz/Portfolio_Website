@@ -41,6 +41,18 @@ const Home = () => {
     }
   }, [showInstructions]);
 
+  useEffect(() => {
+    document.body.style.overflow = 'hidden';
+    document.body.style.height = '100vh';
+    document.body.style.touchAction = 'none';
+
+    return () => {
+      document.body.style.overflow = 'unset';
+      document.body.style.height = 'auto';
+      document.body.style.touchAction = 'auto';
+    };
+  }, []);
+
   const adjustIslandForScreenSize = () =>{
     let screenScale = null;
     let screenPosition = [0, -6.5, -43];
@@ -75,7 +87,7 @@ const Home = () => {
   const [planeScale, planePosition] = adjustPlaneForScreenSize();
 
   return (
-    <section className='w-full h-screen relative overflow-hidden touch-none select-none'>
+    <section className='w-full h-screen relative overflow-hidden touch-none'>
       {showInstructions && (
         <div className='absolute inset-0 flex items-center justify-center z-20 bg-black bg-opacity-75 backdrop-blur-sm transition-opacity duration-500 px-4 sm:px-0'>
           <div className='bg-gradient-to-br from-slate-800 to-slate-900 p-4 sm:p-8 rounded-xl w-full max-w-md text-center shadow-2xl border border-slate-700'>
@@ -106,7 +118,7 @@ const Home = () => {
               <p className='text-white text-sm sm:text-base'>• Look for the plane to visit smaller islands</p>
             </div>
             
-            <div className='bg-slate-700 p-3 sm:p-4 rounded-lg mb-4 sm:mb-6 relative overflow-hidden'>
+            <div className='hidden sm:block bg-slate-700 p-3 sm:p-4 rounded-lg mb-4 sm:mb-6 relative overflow-hidden'>
               <div className='flex items-center justify-between'>
                 <div className='flex items-center'>
                   <FaVolumeUp className='text-xl sm:text-2xl text-purple-300 mr-2 sm:mr-3' />
