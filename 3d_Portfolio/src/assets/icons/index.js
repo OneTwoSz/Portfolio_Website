@@ -33,8 +33,10 @@ import cognizant from './cognizant.svg'
 import allied from './allied.svg'
 import bsnl from './bsnl.svg'
 import manipal from './manipal.svg'
+import aevumNexus from './AV_logo.svg'
 
 export {
+    aevumNexus,
     allied,
     bsnl,
     blockchain,

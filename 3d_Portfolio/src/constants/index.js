@@ -1,5 +1,6 @@
 import {
     allied,
+    aevumNexus,
     bsnl,
     blockchain,
     cognizant,
@@ -147,22 +148,36 @@ export const experiences = [
         date: "Feb 2021 - Feb 2022",
         points: [
             
-            "Developed and optimized front-end and back-end components of Java-based applications.",
-            "Involved in coding, debugging, and collaborative design of client-focused software solutions.",
+            "Developed and optimized full-stack Java-based applications, improving user experience and reducing bugs by 15%.",
+            "Built scalable frontend components using React and integrated with backend services using Spring Framework",
+            "Streamlined CI/CD pipelines, ensuring smooth software deployments",
             "Enhanced expertise in Java and other programming languages; improved problem-solving and project management skills",
-            "Contributed to diverse projects, fostering professional growth and technical proficiency in the IT industry.",
+            "Performed unit testing and debugging, ensuring 95% functionality accuracy before deployment.",
         ],
     },
     {
-        title: "IT specialist",
+        title: "IT Support Analyst",
         company_name: "Allied Pickfords",
         icon: allied,
         iconBg: "#a2d2ff",
-        date: "July 2022 - Present",
+        date: "July 2022 - June 2024",
         points: [
-            "Specializing in the configuration of server hardware and network settings tailored to various business needs, ensuring optimal server functionality and performance.",
-            "Conducting detailed inspections and performance evaluations of server setups, emphasizing system reliability and operational efficiency.",
-            "Responsively adapting server configurations in line with client feedback, focusing on enhancing system capabilities and user experience.",
+            "Led a team to implement IT infrastructure for major clients, enhancing system reliability and performance.",
+            "Redesigned the company website, achieving a 20% increase in conversion rates and 15% growth in organic traffic.",
+            "Developed responsive front-end solutions using React and Tailwind CSS, improving performance across devices.",
+        ],
+    },
+    {
+        title: "Junior Software Engineer",
+        company_name: "Aevum Nexus",
+        icon: aevumNexus,
+        iconBg: "#ffffff",
+        date: "July 2024 - Present",
+        points: [
+            "Spearheaded development of high-performance e-commerce websites and web applications, focusing on responsive designs and scalable solutions to enhance client satisfaction",
+            "Delivered a redesigned website for The Farm Yarra Valley, enhancing performance by 30%",
+            "Built reusable frontend components using React and TypeScript, improving project delivery time by 20%.",
+            "Implemented automated testing and CI/CD pipelines for seamless project execution.",
         ],
     },
 ];
@@ -186,6 +201,34 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    {
+        iconUrl: pricewise,
+        theme: 'btn-back-yellow',
+        name: 'Co-authored Paper: Inflated Exertion: Designing a Bodily Extension that Embodies Physical Activity',
+        description: '“Inflated Exertion,” a pneumatic bodily extension designed to embody physical activity. The bodily extension inflates in response to the intensity and duration of a user’s exertion, offering a dynamic embodiment of the person’s physical activity to support people to engage with their bodies.',
+        link: 'https://dl.acm.org/doi/10.1145/3689050.3706069',
+    },
+    {
+        iconUrl: pricewise,
+        theme: 'btn-back-yellow',
+        name: 'GoalMaster',
+        description: 'An AI-powered goal-setting app that helps users achieve their goals faster by breaking them down into smaller, manageable tasks. A full-stack application built with Astro, Node.js, and Supabase. Complete with authentication, authorization, and a dashboard to track progress.',
+        link: 'https://goalmaster1.netlify.app/',
+    },
+    {
+        iconUrl: summiz,
+        theme: 'btn-back-yellow',
+        name: 'Aevum Nexus website',
+        description: 'Developed a modern, dynamic website for Aevum Nexus, featuring responsive design, interactive UI elements, and seamless navigation. Implemented advanced animations, optimized performance metrics, and integrated a custom CMS for easy content management. The site showcases the company\'s services and portfolio while maintaining optimal loading speeds across all devices.',
+        link: 'https://avmnexus.com/',
+    },
+    {
+        iconUrl: summiz,
+        theme: 'btn-back-yellow',
+        name: 'The Farm Yarra Valley',
+        description: 'Crafted an elegant, user-centric website for a premium wedding venue in Yarra Valley. Features include an immersive photo gallery, and streamlined booking system. Implemented SEO best practices resulting in improved search rankings and integrated with various third-party wedding planning tools for enhanced functionality.',
+        link: 'https://www.thefarmyarravalley.com.au/',
+    },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',

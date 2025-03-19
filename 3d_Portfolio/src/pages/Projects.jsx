@@ -2,8 +2,13 @@ import { Link } from "react-router-dom"
 import { arrow } from "../assets/icons"
 import CTB from "../components/CTB"
 import { projects } from "../constants"
+import { useEffect } from "react"
 
 const Projects = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <section className='max-container'>
       <h1 className='head-text'>

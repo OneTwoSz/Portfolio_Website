@@ -3,7 +3,7 @@ import { skills, experiences } from '../constants'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import CTA from '../components/CTA';
-import sabari from '../assets/images/sabari.jpg'
+import sabariVS from '../assets/images/sabariVS.jpg'
 
 const About = () => {
   return (
@@ -12,8 +12,21 @@ const About = () => {
         Hello, I'm <span className='blue-gradient_text font-semibold drop-shadow'> Sabari VS</span> 
       </h1>
 
-      <div className="flex-1 flex justify-center">
-        <img src={sabari} className="w-25 h-25 md:w-30 md:h-30 max-w-xs max-h-xs md:max-w-sm md:max-h-sm object-cover" style={{ objectPosition: 'center top' }} />
+      <div className="flex-1 flex justify-center my-8">
+        <div className="relative group">
+          <img 
+            src={sabariVS} 
+            className="w-25 h-25 md:w-30 md:h-30 max-w-xs max-h-xs md:max-w-sm md:max-h-sm object-cover rounded-lg transition-all duration-500 group-hover:scale-105 z-10 relative shadow-xl" 
+            style={{ 
+              objectPosition: 'center top',
+              mixBlendMode: 'multiply',
+              backgroundColor: 'rgba(240, 240, 240, 0.1)'
+            }} 
+            alt="Sabari VS portrait"
+          />
+          <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg blur opacity-40 group-hover:opacity-75 transition duration-500 group-hover:blur-xl"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#111132] opacity-30 rounded-lg z-20 pointer-events-none"></div>
+        </div>
       </div>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
