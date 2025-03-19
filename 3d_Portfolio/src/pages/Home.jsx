@@ -75,7 +75,7 @@ const Home = () => {
   const [planeScale, planePosition] = adjustPlaneForScreenSize();
 
   return (
-    <section className='w-full h-screen relative'>
+    <section className='w-full h-screen relative overflow-hidden touch-none select-none'>
       {showInstructions && (
         <div className='absolute inset-0 flex items-center justify-center z-20 bg-black bg-opacity-75 backdrop-blur-sm transition-opacity duration-500 px-4 sm:px-0'>
           <div className='bg-gradient-to-br from-slate-800 to-slate-900 p-4 sm:p-8 rounded-xl w-full max-w-md text-center shadow-2xl border border-slate-700'>
