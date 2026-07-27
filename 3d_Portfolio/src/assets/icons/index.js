@@ -34,6 +34,7 @@ import allied from './allied.svg'
 import bsnl from './bsnl.svg'
 import manipal from './manipal.svg'
 import aevumNexus from './AV_logo.svg'
+import quantifi from './quantifi.png'
 
 export {
     aevumNexus,
@@ -71,5 +72,6 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    quantifi
 }
